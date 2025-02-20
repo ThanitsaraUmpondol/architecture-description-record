@@ -65,7 +65,7 @@ Reasons for using **Kong JWT Plugin** instead of other methods:
 ⚠️ Requires setting up **JWT Secrets** for each consumer  
 ⚠️ Users need to request a new token when it expires  
 
-## Sample code  
+## Sample code   
 Example of enabling the JWT Plugin in Kong:  
 
 ```bash
