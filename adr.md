@@ -29,7 +29,7 @@ Cons:
  Requires a database (PostgreSQL / Cassandra)
  Has a learning curve for setup and usage
 
-## Sample code  
+## Sample code
 --
 ```bash
 curl -i -X POST http://localhost:8001/services/ \
@@ -57,15 +57,15 @@ Reasons for using **Kong JWT Plugin** instead of other methods:
 
 ## Consequences  
 **Pros:**  
-✅ Reduces backend service workload  
-✅ Increases security (no need to store passwords)  
-✅ Seamlessly integrates with the API Gateway  
+Reduces backend service workload  
+ Increases security (no need to store passwords)  
+ Seamlessly integrates with the API Gateway  
 
 **Cons:**  
-⚠️ Requires setting up **JWT Secrets** for each consumer  
-⚠️ Users need to request a new token when it expires  
+Requires setting up **JWT Secrets** for each consumer  
+ Users need to request a new token when it expires  
 
-## Sample code  
+## Sample code   
 Example of enabling the JWT Plugin in Kong:  
 
 ```bash
