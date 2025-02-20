@@ -1,4 +1,4 @@
-# ADR 001: ใช้ Kong เป็น API Gateway
+# Use Kong as an API Gateway
 
 ## Context  
 In this project, we need an API Gateway to manage API Routing, Security, Load Balancing, and Monitoring.
